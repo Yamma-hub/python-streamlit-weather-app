@@ -1,0 +1,7 @@
+This are libraries you should have to get it going
+
+strreamlit
+pandas
+requests
+python-weather
+asyncio
