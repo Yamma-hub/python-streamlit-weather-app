@@ -14,7 +14,7 @@ async def get_weather():
     client = pw.Client()
 
     st.title("Weather App", anchor=None, help=None, width="stretch", text_alignment="center")
-    country = st.text_input("Insert (Country/Cities/...)", max_chars=300, type="default", help="Insert (Country/Cities/...)", placeholder="Country A", icon="🌎")
+    country = st.text_input("Insert (Country/Cities/...)", max_chars=300, type="default", help="Insert (Country/Cities/...)", placeholder="Country A", value="Jakarta", icon="🌎")
 
     if st.session_state.city != country:
         st.session_state.temp = None
@@ -92,3 +92,4 @@ async def get_weather():
 
 
 asyncio.run(get_weather())
+
