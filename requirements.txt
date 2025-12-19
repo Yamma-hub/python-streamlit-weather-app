@@ -1,5 +1,6 @@
-strreamlit
+streamlit
 pandas
 requests
 python-weather
 asyncio
+
